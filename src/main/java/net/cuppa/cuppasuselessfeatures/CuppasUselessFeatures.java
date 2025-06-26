@@ -1,5 +1,6 @@
 package net.cuppa.cuppasuselessfeatures;
 
+import net.cuppa.cuppasuselessfeatures.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class CuppasUselessFeatures implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.initialize();
 	}
 }
