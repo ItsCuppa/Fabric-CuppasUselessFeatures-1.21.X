@@ -3,15 +3,15 @@
 	"id": "cuppasuselessfeatures",
 	"version": "${version}",
 	"name": "Cuppas Useless Features",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod fixing useless minecraft features",
 	"authors": [
-		"Me!"
+		"Cuppa!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/4H4SPUynmA",
+		"sources": "https://github.com/ItsCuppa/Fabric-CuppasUselessFeatures-1.21.X"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/cuppasuselessfeatures/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.cuppa.cuppasuselessfeatures.CuppasUselessFeaturesDataGenerator"
+		],
+		"client": [
+			"net.cuppa.cuppasuselessfeatures.CuppasUselessFeaturesClient"
 		]
 	},
 	"mixins": [
