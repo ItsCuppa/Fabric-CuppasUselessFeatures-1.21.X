@@ -1,3 +1,5 @@
 {
-  "item.cuppasuselessfeatures.melon_test": "Melon Test Item"
+  "block.cuppasuselessfeatures.melon_block": "Melon Block",
+  "item.cuppasuselessfeatures.melon_test": "Melon Test Item",
+  "itemGroup.cuppasuselessfeatures": "Melon Test Item Group"
 }

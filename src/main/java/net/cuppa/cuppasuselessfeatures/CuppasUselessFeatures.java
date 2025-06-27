@@ -1,5 +1,6 @@
 package net.cuppa.cuppasuselessfeatures;
 
+import net.cuppa.cuppasuselessfeatures.block.ModBlocks;
 import net.cuppa.cuppasuselessfeatures.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class CuppasUselessFeatures implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.initialize();
 		ModItems.initialize();
 	}
 }
