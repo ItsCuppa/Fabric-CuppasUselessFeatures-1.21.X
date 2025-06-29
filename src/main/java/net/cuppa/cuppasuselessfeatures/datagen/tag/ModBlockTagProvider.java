@@ -23,5 +23,12 @@ public class ModBlockTagProvider extends FabricTagProvider<Block> {
                 .add(ModBlocks.MELON_BLOCK);
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
                 .add(ModBlocks.MELON_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.GLISTERING_MELON_BLOCK);
+        getOrCreateTagBuilder(BlockTags.ENDERMAN_HOLDABLE)
+                .add(ModBlocks.GLISTERING_MELON_BLOCK);
+        getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
+                .add(ModBlocks.GLISTERING_MELON_BLOCK);
     }
 }

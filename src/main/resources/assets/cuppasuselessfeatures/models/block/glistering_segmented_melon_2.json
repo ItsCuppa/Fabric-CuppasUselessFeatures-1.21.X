@@ -1,0 +1,39 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"4": "cuppasuselessfeatures:block/glistering_melon_top",
+		"5": "cuppasuselessfeatures:block/glistering_melon_flesh",
+		"6": "cuppasuselessfeatures:block/glistering_melon_side",
+		"particle": "cuppasuselessfeatures:block/glistering_melon_side"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24, 0, 17]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 16], "texture": "#5"},
+				"east": {"uv": [0, 0, 8, 16], "texture": "#6"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [8, 0, 16, 16], "texture": "#5"},
+				"up": {"uv": [16, 16, 8, 8], "rotation": 180, "texture": "#4"},
+				"down": {"uv": [16, 8, 8, 16], "rotation": 180, "texture": "#4"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#6"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#6"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#5"},
+				"up": {"uv": [16, 8, 8, 0], "rotation": 180, "texture": "#4"},
+				"down": {"uv": [16, 0, 8, 8], "rotation": 180, "texture": "#4"}
+			}
+		}
+	]
+}

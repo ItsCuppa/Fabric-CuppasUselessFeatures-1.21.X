@@ -1,7 +1,8 @@
 {
   "variants": {
-    "": {
-      "model": "cuppasuselessfeatures:block/segmented_melon_0"
-    }
+    "bites=0": { "model": "cuppasuselessfeatures:block/segmented_melon_0" },
+    "bites=1": { "model": "cuppasuselessfeatures:block/segmented_melon_1" },
+    "bites=2": { "model": "cuppasuselessfeatures:block/segmented_melon_2" },
+    "bites=3": { "model": "cuppasuselessfeatures:block/segmented_melon_3" }
   }
 }

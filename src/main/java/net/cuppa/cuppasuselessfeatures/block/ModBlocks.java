@@ -21,12 +21,20 @@ public class ModBlocks {
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ModItems.CUSTOM_ITEM_GROUP_KEY).register((itemGroup) -> {
             itemGroup.add(ModBlocks.MELON_BLOCK.asItem());
+            itemGroup.add(ModBlocks.GLISTERING_MELON_BLOCK.asItem());
         });
     }
 
     public static final Block MELON_BLOCK = register(
             "melon_block",
-            Block::new,
+            MelonBlock::new,
+            Block.Settings.copy(Blocks.MELON),
+            true
+    );
+
+    public static final Block GLISTERING_MELON_BLOCK = register(
+            "glistering_melon_block",
+            GlisteringMelonBlock::new,
             Block.Settings.copy(Blocks.MELON),
             true
     );

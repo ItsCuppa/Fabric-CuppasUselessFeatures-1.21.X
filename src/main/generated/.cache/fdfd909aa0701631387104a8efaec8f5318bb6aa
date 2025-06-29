@@ -1,3 +1,5 @@
 // 1.21.4	-999999999-01-01T00:00:00	Cuppas Useless Features/ModRecipeProvider
+bdc6148011fac2d872fada471a43a5449974ccdf data/cuppasuselessfeatures/advancement/recipes/decorations/glistering_melon_block.json
 1a0d7ccbd037c53c8687eb2fc662e24628dfc6c5 data/cuppasuselessfeatures/advancement/recipes/decorations/melon.json
+fd1b078024fc97033d87e71e7521f04aa0ee826b data/cuppasuselessfeatures/recipe/glistering_melon_block.json
 3a39f7953bf3a08072de0a4d7ea71a097749fc04 data/cuppasuselessfeatures/recipe/melon.json

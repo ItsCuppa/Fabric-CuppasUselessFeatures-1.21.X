@@ -36,6 +36,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('M', Items.MELON_SLICE)
                         .criterion("has_melon_slice", conditionsFromItem(Items.MELON_SLICE))
                         .offerTo(exporter, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of("minecraft", "melon")));
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.DECORATIONS, ModBlocks.GLISTERING_MELON_BLOCK.asItem())
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .input('M', Items.GLISTERING_MELON_SLICE)
+                        .criterion("has_melon_slice", conditionsFromItem(Items.GLISTERING_MELON_SLICE))
+                        .offerTo(exporter, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of("cuppasuselessfeatures", "glistering_melon_block")));
             }
         };
     }

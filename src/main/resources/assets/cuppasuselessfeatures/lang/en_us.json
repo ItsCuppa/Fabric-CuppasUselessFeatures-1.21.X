@@ -1,5 +1,7 @@
 {
+  "block.cuppasuselessfeatures.glistering_melon_block": "Glistering Melon Block",
   "block.cuppasuselessfeatures.melon_block": "Melon Block",
+  "item.cuppasuselessfeatures.glistering_melon_slice": "Glistering Melon Slice",
   "item.cuppasuselessfeatures.melon_test": "Melon Test Item",
   "itemGroup.cuppasuselessfeatures": "Melon Test Item Group"
 }

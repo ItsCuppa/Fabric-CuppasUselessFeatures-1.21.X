@@ -5,19 +5,208 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
+          "block": "cuppasuselessfeatures:melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "0"
+          }
+        },
+        {
           "condition": "minecraft:survives_explosion"
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cuppasuselessfeatures:melon_test"
+          "name": "minecraft:melon_slice"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 7.0,
         "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:glistering_melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "0"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 7.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "1"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:glistering_melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "1"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "2"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:glistering_melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "2"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "3"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "cuppasuselessfeatures:glistering_melon_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "3"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
       }
     }
   ]
